@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SimpleShoppingCart.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main_container">
+    
+         <asp:ContentPlaceHolder ID="HeaderContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    
+    
+      
+        
+                
+            
+       <div id="main_content">
+    	<div id="left_content">
+        <h2>Menu</h2>
+        
+        
+         <div id="left_nav">
+            <ul>                                        
+                <li><a href="Default.aspx" title="">Home</a></li>
+                <li><a href="Products.aspx" title="">Products</a></li>
+                <li><a href="Categories.aspx" title="">Categories</a></li>
+                <li><a href="About.aspx" title="">About</a></li>
+            </ul>
+        </div>
+        
+        <div class="clear">
+        
+       
+        </div>   
+           
+        
+        
+        
+        </div><!--end of left content-->
+
+
+
+    	<div id="right_content">
+        
+            
+                 
+            
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+       
+        
+        </div><!--end of right content-->
+
+
+    
+    <div style=" clear:both;"></div>
+    </div><!--end of main content-->
+ 
+
+     <div id="footer">
+     	<div class="copyright">
+		<p>2008</p>
+        </div>
+    	<div class="footer_links"> 
+        <a href="#">About us</a>
+         <a href="privacy.html">Privacy policy</a> 
+        <a href="contact.html">Contact us </a>
+
+
+        
+        </div>
+    
+    
+    </div> 
+       
+        
+     
+       
+    </div>
+    </form>
+</body>
+</html>

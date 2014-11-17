@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="SimpleShoppingCart.Admin.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<link rel="stylesheet" type="text/css"  href="main.css" />
+
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+<form id="form1" runat="server">
+
+	<div class="wrapper">
+	
+		<h1 class="logo">Simple Shopping Cart</h1>
+		<p class="txt_right">Logged in as <strong>Admin </strong>  <span class="v_line"> | </span> <a href="#"> Logout</a></p>
+	
+	
+		<asp:ContentPlaceHolder ID="NavigationPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+		    
+		<div class="clear"></div>
+	
+
+		<div class="content">
+	
+		 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+		
+	
+		</div>
+
+    </div>
+	
+</form>
+</body>
+</html>

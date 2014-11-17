@@ -1,0 +1,9 @@
+C:\Documents and Settings\Mohamed\My Documents\Visual Studio 2008\Projects\SimpleShoppingCart\SimpleShoppingCart\bin\SimpleShoppingCart.dll
+C:\Documents and Settings\Mohamed\My Documents\Visual Studio 2008\Projects\SimpleShoppingCart\SimpleShoppingCart\bin\SimpleShoppingCart.pdb
+C:\Documents and Settings\Mohamed\My Documents\Visual Studio 2008\Projects\SimpleShoppingCart\SimpleShoppingCart\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mohamed\My Documents\Visual Studio 2008\Projects\SimpleShoppingCart\SimpleShoppingCart\obj\Debug\SimpleShoppingCart.dll
+C:\Documents and Settings\Mohamed\My Documents\Visual Studio 2008\Projects\SimpleShoppingCart\SimpleShoppingCart\obj\Debug\SimpleShoppingCart.pdb
+C:\Users\Mohamed\Dropbox\SharedProjects\SimpleShoppingCart\SimpleShoppingCart\bin\SimpleShoppingCart.dll
+C:\Users\Mohamed\Dropbox\SharedProjects\SimpleShoppingCart\SimpleShoppingCart\bin\SimpleShoppingCart.pdb
+C:\Users\Mohamed\Dropbox\SharedProjects\SimpleShoppingCart\SimpleShoppingCart\obj\Debug\SimpleShoppingCart.dll
+C:\Users\Mohamed\Dropbox\SharedProjects\SimpleShoppingCart\SimpleShoppingCart\obj\Debug\SimpleShoppingCart.pdb
